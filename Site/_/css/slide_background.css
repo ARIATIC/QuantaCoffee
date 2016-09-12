@@ -1,0 +1,47 @@
+.slide-bg1 {
+    background:url(../images/INDEX/HEADER/PICTURE/1PORTADA-MANOCAFE.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-bg2 {
+    background:url(../images/INDEX/HEADER/PICTURE/2PORTADA-NINACAFE.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-bg3 {
+    background:url(../images/INDEX/HEADER/PICTURE/4PORTADA-MODELOCAFE.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-bg4 {
+    background:url(../images/INDEX/HEADER/PICTURE/5PORTADA-FINCANIEBLA.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+
+
+.slide-farm-bg1 {
+    background:url(../images/FARMS/EL_DANUBIO.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-farm-bg2 {
+    background:url(../images/FARMS/LAMORELIA.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-farm-bg3 {
+    background:url('../images/FARMS/HEADER/recolectorsonriente.jpg');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-farm-bg4 {
+    background:url('../images/FARMS/HEADER/FINCA1.png');
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.slide-farm-bg5 {
+    background:url(../images/FARMS/HEADER/willys.jpg);
+    background-repeat:no-repeat;
+    background-size: cover;
+}

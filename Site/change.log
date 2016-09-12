@@ -1,0 +1,34 @@
+Krypton Version
+=================
+10 Dec 2013	: initial release
+
+11 Dec 2013
+- update featured work-2 title ( css )
+- google map marker ( index_2.html , index_3.html)
+- squence loader ( myscript.js , bootstrap.js , index.html, index_2.html, index_3.html, index_4.html )
+- contact form validation (myscript.js) 
+- update main slider (index.html)
+- update modal background (mystyle.css)
+- update second slider (slider_2.css, index_2.html, index_3.html, index_4.html)
+- remove double separator on phone number (index.html, index_4.html)
+- update map background image (aerial_view.jpg)
+
+12 Dec 2013
+- fix featured work 2 on slow internet connection ( myscript.js)
+- fix portfolio detail ( portfolio_detail.html)
+- fix modal box on slow internet connection ( myscript.js, mystyle.css, bootstrap.css)
+- features menu (all pages)
+
+16 Dec 2013
+- Adding 3 columns pricing table ( index_3.html, mystyle.css )
+
+07 Jan 2014
+Version 2.0 release
+- Adding shop pages
+- Adding simple capcha on contact form 
+- Fix masonry column on 320px display ( mysript.js, mystyle.css )
+- Fix masonry column on 1000px display ( blog_masonry_3_col.html,blog_masonry_4_col.html )
+- Fix scroll spy on ie9
+
+08 Jan 2014
+- Fix banner size on detail post ( mystyle.css , single_post_full_width.html )

@@ -1,0 +1,1143 @@
+﻿   <!-- QUANTA COFFEE PAGINA PRINCIPAL-->
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Quanta Coffee</title>
+    <link rel="icon" href="_/images/INDEX/HEADER/LOGO/SEARCH_BLACK.png" type="image/gif" sizes="16x16">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="_/css/bootstrap.css" rel="stylesheet" media="screen">
+    <link href="_/css/fontello.css" rel="stylesheet" media="screen">
+    <link href="_/css/mystyle.css" rel="stylesheet" media="screen">
+    <link href="_/css/shop_slider.css" rel="stylesheet" media="screen">
+    <link href="_/css/slider.css" rel="stylesheet" media="screen">
+    <link href="_/css/slider_2.css" rel="stylesheet" media="screen">
+    <link href="_/css/sub_slider.css" rel="stylesheet" media="screen">
+    <link href="_/css/twitter_slider.css" rel="stylesheet" media="screen">
+    <link href="_/css/slide_background.css" rel="stylesheet" media="screen">
+    <link href="_/css/shop_slider_background.css" rel="stylesheet" media="screen">
+    <link href="_/css/subpage_banners.css" rel="stylesheet" media="screen">
+    <link href="_/css/jrating.jquery.css" rel="stylesheet" media="screen">
+    <link href="_/css/quanta_style.css" rel="stylesheet" media="screen">
+
+    <!--[if IE 9]><link rel="stylesheet" type="text/css" href="_/css/ie9.css"><![endif]-->
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='http://fonts.googleapis.com/css?family=Lora:400,400italic' rel='stylesheet' type='text/css'>
+    <script type="text/javascript" src="_/js/modernizr.js"></script>
+    <script type="text/javascript" src="_/js/bootstrap.js"></script>
+    <script type="text/javascript" src="_/js/json/agregarJson.js"></script>
+    <script type="text/javascript" src="_/js/instafeed.min.js"></script>
+
+</head>
+<body class="home">
+    <div id="fb-root"></div>
+    <script>
+        (function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "//connect.facebook.net/es_LA/sdk.js#xfbml=1&version=v2.6";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));
+    </script>
+
+    <!--MENU-->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="row">
+                <div class="col col-sm-12">
+                    <div class="navbar-header">
+                        <div class="visible-xs panel-mobile">
+                            <a href="shop_view_cart.html">Cart</a>
+                            <span>|</span>
+                            <a href="quanta_coffee_shop.html">Shop</a>
+                            <span>|</span>
+                            <a href="#" class="md-trigger" data-modal="login-modal" onclick="return false;">Login</a>
+                        </div>
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#mynavbar">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bars"></span>
+                            <span class="icon-bars"></span>
+                            <span class="icon-bars"></span>
+                        </button>
+                        <a class="navbar-brand" href="index.html"><img src="_/images/INDEX/HEADER/LOGO/SEARCH_BLACK.png" alt="Logo"></a>
+                    </div>
+                    <div class="collapse navbar-collapse" id="mynavbar">
+                        <div class="left-cell">
+                            <ul class="nav navbar-nav">
+                                <li class="active dropdown">
+                                    <a href="index.html" data-toggle="dropdown"> 
+                                        <p class="quantaMenuBlack quantaBold">Home</p>                                       
+                                    </a>
+                                    <ul class="dropdown-menu quantaCalibri">
+                                        <li><a class="menuTitle" href="index.html">
+                                                <h4 class="quantaMenu quantaBold">
+                                                    HOME
+                                                </h4>
+                                            </a>
+                                        </li>
+                                        <li><a href="index.html#vertical_slider">Process</a></li>
+                                        <li><a href="index.html#drinks">Barista Center</a></li>
+                                        <li><a href="index.html#farm">Farms</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="quanta_coffee_farm.html">
+                                    
+                                        <p class="quantaMenuBlack quantaBold">Farms</p>                              
+                                    </a>
+                                </li>
+
+
+                                <li class="dropdown">
+                                    <a href="" class="dropdown-toggle" data-toggle="dropdown">
+                                        <p class="quantaMenuBlack quantaBold">Shop</p>                                     </a>
+                                    <ul class="dropdown-menu quantaCalibri">
+                                        <li>
+                                            <a class="menuTitle" href="quanta_coffee_shop.html">
+                                                <h4 class="quantaMenu quantaBold">
+                                                    Shop
+                                                </h4>
+                                            </a>
+                                        </li>
+                                        
+                                        <li><a href="quanta_coffee_shop.html">Quanta Coffee Shop</a></li>
+                                        <li><a href="shop_view_cart.html">View Cart</a></li>
+                                        <li><a href="checkout.html">Checkout</a></li>
+                                    </ul>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="quanta_coffee_company.html">
+                                        <p class="quantaMenuBlack quantaBold">About Us</p>                        
+                                    </a>
+                                </li>
+
+                                <li class="dropdown">
+                                    <a href="contact.html">
+                                        <p class="quantaMenuBlack quantaBold">Contact Us</p>
+                                   </a>
+                                </li>
+                            </ul>
+
+                        </div>
+
+
+
+
+                        <div class="right-cell">
+                            <form class="nav navbar-form navbar-right navbar-nav1">
+                                <ul class="list-inline">
+
+
+                                    <li class="hidden-mobile">
+                                        <a href="#" class="md-trigger" data-modal="login-modal" onclick="return false;">Login</a>
+                                    </li>
+
+                                    <li class="hidden-mobile">
+                                        <a class="cart-click">Cart / $<span id="subtotal-price">0</span></a>
+                                    </li>
+                                    <li class="hidden-mobile bag">
+                                        <a href="#" class="cart-click">
+                                            <i class="icon-shop">
+                                                <span id="cantidad">0</span>
+                                            </i>
+                                        </a>
+                                    </li>
+
+                                    <li class="dropdown hidden-mobile">
+                                        <a href="index.html" class="dropdown-toggle" data-toggle="dropdown">
+                                            <img src="_/images/INDEX/LOGO/flag-usa-icon.png">▼
+                                        </a>
+                                        <ul class="dropdown-menu">
+                                            <li><h5 class="menuTitle">Select Your Language</h5></li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/colombia-icon.png" title="Spanish"> Spanish</a></li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/flag-usa-icon.png" title="English"> English</a></li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/frances_icon.png" title="French"> French</a> </li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/germany.png" title="German"> German</a></li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/flag-portugal-icon.png" title="Portuguese"> Portuguese</a></li>
+                                            <li><a href="#"><img src="_/images/INDEX/LOGO/Italy-Flag-icon.png" title="Italian"> Italian</a></li>
+                                        </ul>
+                                    </li>
+                                </ul>
+                                <div style="margin-top:10px"></div>
+                                <ul class="list-inline social">
+                                    <!--
+                    <li><a class="icon-youtube-3" href="https://www.youtube.com/channel/UC-6FJYEHozYdUcfB75fgzhw " title="Youtube"></a></li>
+                    -->
+                                    <li><a onclick="return false;" data-modal="modal_snapchat" class="md-trigger"><img src="_/images/HEADER/LOGO/SNAPCHAT.png" title="Snapchat"></a></li>
+
+                                    <li><a href="https://www.instagram.com/quanta_coffee/" class="icon-instagram-1" title="Instagram" target="_blank"></a> </li>
+                                    <li><a class="icon-facebook" href="https://www.facebook.com/quantacoffee?fref=ts" title="Facebook" target="_blank"></a></li>
+                                    <li><a class="icon-gplus" href="#" title="Google plus" target="_blank"></a></li>
+                                    <li><a class="icon-twitter" href="https://twitter.com/quantacoffee" title="Twitter" target="_blank"></a></li>
+                                    <li><a class="icon-mail-1" href="mailto:info@quantacoffee.com" title="email"></a></li>
+
+
+                                </ul>
+                                <!--
+                <li>
+                    <div class="popup_form hide-me-first">
+                        <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <a class="search_btn">
+                        <i class="icon-search">
+
+                        </i>
+                    </a>
+                </li>-->
+                            </form>
+                        </div>
+                    </div>
+
+
+                    <div id="popupitem" class="cart-popup hide-me-first">
+                        <!-- Item 2 -->
+                        <div id="popup-bottom-info" class="popup-bottom-info">
+                            <div class="popup-subtotal">
+                                Cart Sub Total <span class="popup-subtotal-price">$<span id="popup-subtotal-price">0</span></span>
+                            </div>
+                            <div>
+                                <a href="shop_view_cart.html" class="popup-view-cart">
+                                    View Cart
+                                </a>
+                            </div>
+                            <div>
+                                <a href="checkout.html" class="popup-button-proceed">
+                                    Proceed to Checkout
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER INICIAL -->
+    <div class="mainbanner">
+        <div id="sequence">
+            <span class="sequence-prev"><i class="icon-left-open-big"></i></span>
+            <span class="sequence-next"><i class="icon-right-open-big"></i></span>
+            <ul class="sequence-canvas">
+                <li class="slide-frame">
+                    <div class="slide-bg slide-bg1"></div>
+                    <div class="slide-logo">
+                        <img src="_/images/HEADER/LOGO/LOGO_QUANTA_WHITE.png" alt="Logo">
+                    </div>
+                    <div class="slide-title">
+                        <p class="quantaBold quantaTextSlide">Single-Origin  Colombian Coffee</p>
+                    </div>
+
+
+                    <div class="slide-button">
+                        <a href="#" class="btn-cta">Take a Tour</a>
+                    </div>
+                </li>
+                <!-- Frame 1 -->
+                <li class="slide-frame">
+                    <div class="slide-bg slide-bg2"></div>
+                    <div class="slide-logo">
+                        <img src="_/images/HEADER/LOGO/LOGO_QUANTA_BORDER.png" alt="Logo">
+                    </div>
+                    <div class="slide-title">
+                        <p class="quantaBold quantaTextSlide">Freshly Harvested</p>
+                    </div>
+
+                    <div class="slide-button">
+                        <a class="btn-cta">Take a Tour</a>
+                    </div>
+                </li>
+                <!-- Frame 2 -->
+                <li class="slide-frame">
+                    <div class="slide-bg slide-bg3"></div>
+                    <div class="slide-logo">
+                        <img src="_/images/HEADER/LOGO/LOGO_QUANTA_BORDER.png" alt="Logo">
+                    </div>
+                    <div class="slide-title">
+                        <p class="quantaBold quantaTextSlide">Freshly Roasted</p>
+                    </div>
+
+                    <div class="slide-button">
+                        <a class="btn-cta">Take a Tour</a>
+                    </div>
+                </li>
+                <!-- Frame 3 -->
+                <li class="slide-frame">
+                    <div class="slide-bg slide-bg4"></div>
+                    <div class="slide-logo">
+                        <img src="_/images/HEADER/LOGO/LOGO_QUANTA_BORDER.png" alt="Logo">
+                    </div>
+                    <div class="slide-title">
+                        <p class="quantaBold quantaTextSlide">Colombian Coffee-Growers Axis</p>
+                    </div>
+                    <!--<div class="slide-text">
+                        <p>Every person is an chief. The challenge is to remain an chief after you grow up</p>
+                    </div>-->
+                    <div class="slide-button">
+                        <a class="btn-cta">Take a Tour</a>
+                    </div>
+                </li>
+                <!-- Frame 4 -->
+            </ul>
+        </div>
+    </div>
+
+    <!-- BANNER TOUR -->
+    <div class="grid-icon-container scroll-target" id="production">
+        <section class="container grid-icon">
+            <div class="row">
+                <div class="col col-sm-6 col-md-3" data-uk-scrollspy="{cls:'uk-animation-fade', delay:300}">
+                    <span>
+                        <a href="index.html#vertical_slider">
+                            <img src="_/images/INDEX/BODY/MAIN/PROCESS.png" />
+                        </a>
+                    </span>
+                    <h5 class="quantaCalibri quantaTitle">QUANTA COFFEE PROCESS</h5>
+                    <p class="quantaCambria">Our transparent means of production, from planting the first seed, to the finished product and everything in-between</p>
+                </div>
+                <div class="col col-sm-6 col-md-3" data-uk-scrollspy="{cls:'uk-animation-fade', delay:600}">
+                    <span>
+                        <a href="index.html#drinks">
+                            <img src="_/images/INDEX/BODY/MAIN/DRINKS.png">
+                        </a>
+                    </span>
+                    <h5 class="quantaCalibri quantaTitle">BARISTA CENTER</h5>
+                    <p class="quantaCambria">The different ways to enjoy our speciality coffee along with our recommended preference of preparation</p>
+                </div>
+                <div class="col col-sm-6 col-md-3" data-uk-scrollspy="{cls:'uk-animation-fade', delay:900}">
+                    <span>
+                        <a href="index.html#farm">
+                            <img src="_/images/INDEX/BODY/MAIN/FARMS.png" />
+                        </a>
+                    </span>
+                    <h5 class="quantaCalibri quantaTitle">QUANTA COFFEE FARMS</h5>
+                    <p class="quantaCambria">An inside look into our vast coffee estates and the farmers that bring you the highest quality coffee</p>
+                </div>
+                <div class="col col-sm-6 col-md-3" data-uk-scrollspy="{cls:'uk-animation-fade', delay:1300}">
+                    <span>
+                        <a href="quanta_coffee_shop.html">
+                            <img src="_/images/INDEX/BODY/MAIN/SHOP.png" />
+                        </a>
+                    </span>
+                    <h5 class="quantaCalibri quantaTitle">QUANTA COFFEE SHOP</h5>
+                    <p class="quantaCambria">Quanta Coffee offers you only the finest speciality single-origin coffees from the Colombian Coffee-Growers Axis</p>
+                </div>
+            </div>
+        </section>
+        <svg id="bigTriangleColor" xmlns="http://www.w3.org/2000/svg" version="1.1" width="100%" height="100" viewBox="0 0 100 102" preserveAspectRatio="none">
+            <path d="M0 0 L50 100 L100 0 Z" />
+        </svg>
+    </div>
+
+    <section class="container recent_blog_post col-md-12">
+            <header class="col col-sm-12 centered">
+                <h1 class="quantaSheddar">Welcome</h1>
+            </header>
+
+        <div class="col col-sm-12">
+            <section>
+                <iframe class="center-block video" src="https://www.youtube.com/embed/khhS73s5VLY?rel=0&autoplay=0" frameborder="1" allowfullscreen></iframe>
+            </section>
+        </div>
+    </section>
+    <!-- SLIDER PRODUCTION -->
+    <section class="container" id="vertical_slider">
+        <div class="row section-head">
+            <header class="col col-sm-12 centered">
+
+                <section>
+                    <h2 class="quantaCalibri">Quanta Coffee Process</h2>
+                </section>
+                <hr>
+                <p class="descriptionText quantaCambria">
+                    Quanta Coffee adds value throughout each individual process of producing coffee. The local
+                    Colombian farmers take pride in every layer of production to ensure the best quality of the
+                    unique and specialty coffees that we offer.
+                </p>
+            </header>
+        </div>
+        <div class="cn_wrapper row">
+            <div id="cn_list" class="cn_list col col-xs-4" data-uk-scrollspy="{cls:'uk-animation-slide-left'}">
+                <div class="cn_page" style="display:block;">
+                    <div class="cn_item selected">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/1.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Planting Coffee</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/2.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Harvesting the Cherries</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/3.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Processing the Cherries</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/5.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Drying the Beans</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/6.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Selecting the Beans</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/7.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Roasting the Coffee</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="cn_item">
+                        <div class="row">
+                            <div class="col col-sm-2 vs_icon">
+                                <img src="_/images/INDEX/BODY/PROCESS/LOGOS/8.png" />
+                            </div>
+                            <div class="col col-sm-10 vs_text">
+                                <h2 class="vs_title quantaCalibri">Packaging the Coffee</h2>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+            <div id="cn_preview" class="cn_preview col col-xs-8">
+                <div class="cn_content" style="top:0;" data-uk-scrollspy="{cls:'uk-animation-slide-right', delay:300}">
+                    <figure title="Planting coffee">
+                        <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/1-PLANTING/PLANTING_COFFEE.jpg" alt="Image1" />
+                    </figure>
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Planting Coffee</h2>
+                        <p class="vs_description quantaCambria">Each farm is different but the beginnings are the same, each coffee bean is germinated in a controlled area where with extra care it grows enough to be transplanted in a small plastic bag where, its allowed to grow bigger and stronger finally reaching the farm lands to grow another year and half until its first harvest. </p>
+                    </div>
+                </div>
+                <div class="cn_content">
+                    <figure title="Harvesting the Cherries">
+                        <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/2-HARVESTING/HARVESTING-MATEO.jpg" alt="Image2" />
+
+                    </figure>
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Harvesting the Cherries</h2>
+                        <p class="vs_description quantaCambria">Each farmer has his/her way of harvesting their coffee, and they all agree that selectively hand-picked cherries is the best method to ensure a superb cup of coffee. </p>
+                    </div>
+                </div>
+                <div class="cn_content">
+                    <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/3-PROCESSING/PROCESING.jpg" alt="Image5" />
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Processing the Cherries</h2>
+                        <p class="vs_description quantaCambria">All the farms we own and work with have their own wet mill to process the coffee cherries, we encourage and teach farmers to use additional methods of processing that in return produce a better cup of coffee and a more profitable business for each farmer. </p>
+                    </div>
+                </div>
+
+
+
+                <div class="cn_content">
+                    <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/4-DRYING/DRYING_COFFEE.jpg" alt="Image3" />
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Drying the Beans</h2>
+                        <p class="vs_description quantaCambria">-Each farm is different some place the processed coffee cherries on cement patios while others used whats commonly known as african beds which are raised bamboo and plastic mesh beds with its own plastic roof to protect the beans from getting wet.</p>
+                    </div>
+                </div>
+
+                <div class="cn_content">
+                    <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/5-SELECTING/SELECTING.jpg" alt="Image5" />
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Selecting the Beans</h2>
+                        <p class="vs_description quantaCambria">After our beans’ parchment skin is hulled off at our dry mill they fall into a series of perforated screens that do a pre-selection of size, after this has taken place we continue to hand select batches of coffee beans to assure quality. </p>
+                    </div>
+                </div>
+
+                <div class="cn_content">
+
+                    <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/6-ROASTING/ROASTINGBEANS.jpg" alt="Image6" />
+                    <div class="vs-text-preview visible-sm visible-xs">
+                        <h2 class="vs_title quantaCalibri">Roasting the Coffee</h2>
+                        <p class="vs_description quantaCambria">Our coffees are roasted diligently by our master roaster, who roasts batches of 25 pounds using  our IR-12 Diedrich Roaster.</p>
+                    </div>
+                </div>
+                <div class="cn_content">
+                    <img class="img-responsive" src="_/images/INDEX/BODY/PROCESS/PROCESS/7-PACKAGING/PACKAGING2.gif" alt="Image4" />
+                    <div class="vs-text-preview visible-sm visible-xs quantaScroll">
+                        <h2 class="vs_title quantaCalibri">Packaging the Coffee</h2>
+                        <p class="vs_description quantaCambria">Once each batch has cooled we package the coffee in 12 ounce bags, designed to keep our products fresh. These finished products are shipped by plane to our warehouse in Miami, Florida for distribution. </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SLIDER DRINKS -->
+    <section class="container recent_blog_post col-md-12" id="drinks">
+        <div class="row">
+            <div class="section-head">
+                <header class="col col-sm-12 centered">
+                    <section>
+                        <!--<p> are made by brewing hot water with ground coffee beans.</p>-->
+                        <h2 class="quantaCalibri">Barista Center</h2>
+                    </section>
+                    <hr>
+                    <p class="descriptionText quantaCambria">
+                        Quanta Coffee can taste extraordinary in many different ways.  Our coffee can be
+                        enjoyed using a normal filtered coffee machine to a 12 hour cold brew. The below are
+                        some suggestions for you to prepare our coffee whether you are at home or at your
+                        local coffee shop based on your preferred brewing method so you can taste the
+                        difference.
+                    </p>
+                </header>
+            </div>
+        </div>
+        <div class="row">
+            <div id="recent-blog-post" class="owl-carousel">
+                <div class="col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up'}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="http://www.cosmosushuaia.com.ar/wp-content/uploads/TAZA-CAFE.jpg" alt="HOW TO MAKE EXPRESSO" />
+                            </div>
+                            <div class="thumb-image">
+                                <a href="coffee_expreso.html">
+                                    <img src="http://www.cosmosushuaia.com.ar/wp-content/uploads/TAZA-CAFE.jpg" alt="thumb image" />
+                                </a>
+                               
+                            </div>
+                            <figcaption>
+                                <div class="description">
+                                    <a href="coffee_expreso.html" class="post-title quantaCalibri">ESPRESSO</a>
+                                    <p class="quantaCambria">The Espresso is a classic coffee preparation, but where do you start?.
+                                        We recommend our Caturra</p>
+                                    <div>
+
+                                        <a href="coffee_expreso.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                            Details
+                                        </a>
+                                    </div>
+                                 </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                <div class="col col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up', delay:300}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcQ4jHQJumQNfafz0UD2D4o0erszGaHA-69dbOzj0d-0d0bx6w7y" alt="HOW TO MAKE CAPUCCINO" />
+                            </div>
+                            <div class="thumb-image">
+                                
+                                <a href="coffee_capuccino.html">
+                                    <img src="http://static.imujer.com/sites/default/files/elgranchef/capuccino-de-chocolate.jpg" alt="thumb image" />
+                                </a>
+                            </div>
+                            <figcaption>
+                                <div class="description">
+                                    <a href="coffee_capuccino.html" class="post-title quantaCalibri">CAPPUCCINO</a>
+                                    <p class="quantaCambria">
+                                        The Cappucino is a classic coffee preparation, but where do you start?.
+                                        We recommend our Caturra
+                                    </p>
+                                    <a href="coffee_capuccino.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                        Details
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+                    </div>
+                </div>
+
+                <div class="col col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up', delay:300}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="_/images/INDEX/BODY/MAKE_DRINKS/QUEMEX/Quemex2_opt.jpg" alt="How To Make Chemex" />
+                            </div>
+                            <div class="thumb-image">
+
+                                <a href="coffee_quemex.html">
+                                    <img src="_/images/INDEX/BODY/MAKE_DRINKS/QUEMEX/Quemex_opt.jpg" alt="thumb image" />
+                                </a>
+                            </div>
+
+                            <figcaption>
+                                <div class="description quantaCambria">
+                                    <a href="coffee_quemex.html" class="post-title quantaCalibri">CHEMEX</a>
+                                    <p>The Cheemex is a classic coffee preparation, but where do you start?. We recommend our Castillo or Caturra</p>
+                                    <a href="coffee_quemex.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                        Details
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+
+
+                <div class="col col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up', delay:300}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="http://media1.popsugar-assets.com/files/2014/11/20/811/n/1922195/a007e30f21921f87_d77379c441bf2d564f3526ad7a738c67_orig/i/AeroPress.jpg" alt="How To Make Aeropress" />
+                            </div>
+                            <div class="thumb-image">
+                                <a href="coffee_Aereopress.html">
+                                    <img src="http://static12.insales.ru/files/1/6109/1202141/original/AeroPress-Coffee-Maker-with-Coffee.jpg" alt="thumb image" />
+                                </a>
+                            </div>
+                            <figcaption>
+                                <div class="description">
+                                    <a href="coffee_Aereopress.html" class="post-title quantaCalibri">AEROPRESS</a>
+                                    <p class="quantaCambria">An Aeropress can be enjoyed right at home, but where do you start?.
+                                        We recommend our Castillo
+                                    </p>
+                                    <a href="coffee_Aereopress.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                        Details
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                <!--
+                <div class="col col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up', delay:300}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="_/images/INDEX/BODY/MAKE_DRINKS/coldbluer/Coldbruer2.jpg" alt="HOW TO MAKE FRENCH PRESS" />
+                            </div>
+                            <div class="thumb-image">
+                                <img src="_/images/INDEX/BODY/MAKE_DRINKS/coldbluer/Coldbruer.jpg" alt="thumb image" />
+                            </div>
+                            <figcaption>
+                                <div class="description">
+                                    <a href="coffee_cold_brew.html" class="post-title quantaCalibri">COLD BRUER</a>
+                                    <p class="quantaCambria">A cold bruer allows you to enjoy coffee cold, but where do you start?.
+                                        We recommend our Castillo
+                                    </p>
+                                    <a href="coffee_cold_brew.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                        Details
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                    -->
+
+
+               
+                <!--
+                <div class="col col-sd-12" data-uk-scrollspy="{cls:'uk-animation-scale-up', delay:300}">
+                    <div class="owl-slide">
+                        <figure>
+                            <div class="top-image">
+                                <img src="_/images/INDEX/BODY/MAKE_DRINKS/coldbluer/Coldbruer2.jpg" alt="V60" />
+                            </div>
+                            <div class="thumb-image">
+                                <img src="_/images/INDEX/BODY/MAKE_DRINKS/coldbluer/Coldbruer.jpg" alt="thumb image" />
+                            </div>
+                            <figcaption>
+                                <div class="description">
+                                    <a href="coffee_cold_brew.html" class="post-title quantaCalibri">V60</a>
+                                    <p class="quantaCambria">A V60 allows you to enjoy coffee cold, but where do you start?.
+                                        We recommend our Castillo
+                                    </p>
+                                    <a href="coffee_french_press.html" class="popup-button-proceed quantaLink quantaCalibri">
+                                        Details
+                                    </a>
+                                </div>
+                            </figcaption>
+                        </figure>
+
+                    </div>
+                </div>
+                -->
+            </div>
+            <div class="owl-carousel-navigation">
+                <a class="btn btn-owl prev"></a>
+                <a class="btn btn-owl next"></a>
+            </div>
+        </div>
+    </section>
+
+
+    <!--SLIDER FARM-->
+    <section class="" id="farm">
+        <div class="container profile_team">
+            <div class="row">
+                <div class="section-head">
+                    <header class="col col-sm-12 centered">
+                        <section>
+                            <!--<p>Farms located on coffee triangle </p>-->
+                            <h2 class="quantaCalibri">Quanta Coffee Farms</h2>
+                        </section>
+                        <hr>
+                        <p class="descriptionText quantaCambria">
+                            At Quanta, we thrive on our term relationships with our farms
+                            and the families that have worked them for centuries.  Below, you
+                            can find some information about some of our primary farms to give you an
+                            inside look at the conditions that allow us to provide you with the best
+                            quality coffee.
+                        </p>
+                    </header>
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="profile col-lg-6  col-sm-6 col-xs-12" data-uk-scrollspy="{cls:'uk-animation-fade'}">
+                    <figure>
+                        <div class="top-image">
+                            <img src="_/images/INDEX/BODY/FARMS/FARM1/PICTURE/ELMANZANO.jpg" class="img-responsive" alt="how to create break fast food delicious" />
+                        </div>
+                        <figcaption>
+                            <h3><span class="profile-heading">EL MANZANO</span></h3>
+                            <span class="profile-subheading">Buenavista-Quindío</span>
+                            <p>Quanta coffee farm with .</p>
+                            <p><a href="" class="icon-tree"></a> 240000 coffee trees </p>
+                            <p><a href="" class="icon-tree-2"></a>Varieties: Arabica and caturra</p>
+
+                            <p><a href="" class="icon-location-1"></a>Location: 4.465°  N  75.7447 W</p>
+                            <p><a href="" class="icon-up-2"></a>Altitude: 4,265 FT</p>
+                            <p><a href="" class="icon-person"></a>Direct jobs: 30 - Indirect Jobs: 150</p>
+
+                           
+                            <div class="figcap"></div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+                <div class="profile col-lg-6  col-sm-6 col-xs-12" data-uk-scrollspy="{cls:'uk-animation-fade', delay:600}">
+                    <figure>
+                        <div class="top-image">
+                            <img src="_/images/INDEX/BODY/FARMS/FARM2/PICTURE/LAMORELIA_opt.jpg" class="img-responsive" alt="how to create break fast food delicious" />
+                        </div>
+                        <figcaption>
+                            <h3><span class="profile-heading">La Morelia</span></h3>
+                            <span class="profile-subheading">Armenia-Quindio</span>
+                            
+                            <p>Quanta coffee farm with .</p>
+                            <p><a href="" class="icon-tree"></a> 240000 coffee trees </p>
+                            <p><a href="" class="icon-tree-2"></a>Varieties: Arabica and caturra</p>
+
+                            <p><a href="" class="icon-location-1"></a>Location: 4.465°  N  75.7447 W</p>
+                            <p><a href="" class="icon-up-2"></a>Altitude: 4,265 FT</p>
+                            <p><a href="" class="icon-person"></a>Direct jobs: 30 - Indirect Jobs: 150</p>
+
+                            <div class="figcap"></div>
+                        </figcaption>
+                    </figure>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!--TWITTER-->
+    <section class="twitter-section" data-type="background" data-speed="3" id="twitter">
+        <div class="container">
+            <div class="row">
+                <div class="col col-xs-2 col-sm-1 container-icon">
+                    <a href="https://twitter.com/quantacoffee" target="_blank"><i class="icon-twitter"></i></a>
+                </div>
+                <div class="col col-xs-10 col-sm-11">
+                    <div id="sequence-twitter">
+                        <span class="sequence-prev"><i class="icon-left-open-big"></i></span>
+                        <span class="sequence-next"><i class="icon-right-open-big"></i></span>
+                        <ul class="sequence-canvas">
+                            <li class="animate-in">
+                                <p class="slide-tweet-text">The world consumes close to 2.25 billion cups of coffee every day.<a target="_blank" href="https://twitter.com/QuantaCoffee/status/663686070526169088">https://twitter.com/QuantaCoffee/status/663686070526169088</a> </p>
+                            </li><!-- Frame 1 -->
+                            <li>
+                                <p class="slide-tweet-text">The 5 essential rules for making better coffee <a target="_blank" href="https://twitter.com/QuantaCoffee/status/680124952331317252"> http://forbetter.coffee </a> </p>
+                            </li><!-- Frame 2 -->
+                            <li>
+                                <p class="slide-tweet-text">Just joined Pinterest! You should follow us <a target="_blank" href="https://www.pinterest.com/quanta_coffee/">https://www.pinterest.com/quanta_coffee/</a> </p>
+                            </li><!-- Frame 3 -->
+                            <li>
+                                <p class="slide-tweet-text">Our Twitter <a target="_blank" href="https://twitter.com/QuantaCoffee/status/673583495952904192">#QuantaCoffee</a> </p>
+                            </li><!-- Frame 4 -->
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section>
+        <script type="text/javascript">
+            var userFeed = new Instafeed({
+                get: 'user',
+                userId: 'quanta_coffee',
+                accessToken: 'YOUR_ACCESS_TOKEN'
+            });
+            userFeed.run();
+        </script>
+
+    </section>
+
+    <!-- SECTION ABOUT US  -->
+    <section class="bottom_section" id="details">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-4 col-sm-4 recent-portfolio">
+                    <div class="row">
+                        <div class="section-head">
+                            <header class="col col-sm-12 centered">
+                                <h2 class="quantaCalibri">Instagram</h2>
+                                <hr>
+                            </header>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <!-- SnapWidget -->
+                        <iframe src="http://snapwidget.com/sl/?u=cXVhbnRhX2NvZmZlZXxpbnw4MDB8M3wzfCMxNzIyMmR8eWVzfDV8bm9uZXxvblN0YXJ0fHllc3xubw==&ve=040516" title="Instagram Widget" class="snapwidget-widget boxInstagram" allowtransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:815px; height:815px"></iframe>
+                        <div class="bgOverlaping"></div>
+                    </div>
+
+
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-4 col-sm-4 about-us">
+                    <div class="row">
+                        <div class="section-head">
+                            <header class="col col-sm-12 centered">
+                                <h2 class="quantaCalibri">About Quanta Coffee</h2>
+                                <hr>
+                            </header>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="text-center">
+                                <img src="_/images/INDEX/HEADER/LOGO/LOGO_QUANTA_WHITE.png" alt="" />
+                            </div>
+                            <p class="quantaCambria">
+                                Quanta Coffee, is a coffee company that delivers freshly harvested and roasted specialty coffees; exclusively from the Colombian Coffee Triangle.
+                                <a href="blog_classic_right_sidebar.html" title=""><i class="icon-right-4"></i></a>
+                                Taste the difference
+                            </p>
+
+                        </div>
+                    </div>
+                    <div class="row" style="background-color:whitesmoke; margin-left:20px;">
+
+                        <div class="fb-comments" data-href="http://www.quantacoffee.com/" data-width="100%" data-numposts="1"></div>
+
+
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+
+
+                <div class="col-lg-4 col-md-4 col-sm-4 recent-portfolio">
+                    <div class="row">
+
+                        <div class="section-head">
+                            <header class="col col-sm-12 centered">
+                                <h2 class="quantaCalibri">Barista Center</h2>
+                                <hr>
+                            </header>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <ul class="owl-slide">
+
+
+
+                            <li class="mini-post">
+                                <p class="quantaQuestion">
+                                    <a href="coffee_capuccino.html"><span class="icon-coffee imgListFooter quantaQuestion"><span class="quantaTextFooter">Cappuccino</span></span></a>
+                                </p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="coffee_chemex.html"><span class="icon-coffee imgListFooter quantaQuestion"><span class="quantaTextFooter">Chemex</span></span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="coffee_cold_brew.html"><span class="icon-coffee imgListFooter quantaQuestion"><span class="quantaTextFooter">Cold Brew</span> </span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="coffee_V60.html" class="post-title"><span class="icon-coffee imgListFooter quantaQuestion"><span class="quantaTextFooter">V60</span></span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="coffee_expreso.html"><span class="icon-coffee imgListFooter quantaQuestion"><span class="quantaTextFooter">Espresso</span></span></a></p>
+                                <hr />
+                            </li>
+                        </ul>
+
+
+
+
+
+
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-4 col-md-4 col-sm-4 recent-portfolio">
+                    <div class="row">
+
+                        <div class="section-head">
+                            <header class="col col-sm-12 centered">
+                                <h2 class="quantaCalibri">Product Detail</h2>
+                                <hr>
+                            </header>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <ul class="owl-slide">
+
+                            <li class="mini-post">
+                                <p class="quantaQuestion">
+                                    <a href="Variety.html" onclick="seleccionarProducto(1)"><span class="imgListFooter quantaQuestion quantaTextFooter">Manzano Ground</span></a>
+                                </p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="Variety.html" onclick="seleccionarProducto(0)"><span class="imgListFooter quantaQuestion quantaTextFooter">Manzano Roasted Bean</span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="Variety.html" onclick="seleccionarProducto(2)"><span class="imgListFooter quantaQuestion quantaTextFooter">Manzano Green Bean</span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="Variety.html" onclick="seleccionarProducto(4)"><span class="imgListFooter quantaQuestion quantaTextFooter">Morelia Ground</span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="Variety.html" onclick="seleccionarProducto(3)"><span class="imgListFooter quantaQuestion quantaTextFooter">Morelia Roasted Bean</span></a></p>
+                                <hr />
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+                <div class="col-lg-4 col-md-4 col-sm-4 recent-portfolio">
+                    <div class="row">
+
+                        <div class="section-head">
+                            <header class="col col-sm-12 centered">
+                                <h2 class="quantaCalibri">FAQ's</h2>
+                                <hr>
+                            </header>
+                        </div>
+
+                    </div>
+                    <div class="row">
+                        <ul>
+
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="#" class="post-title imgListFooter"><span class="icon-question quantaQuestion"><span class="quantaTextFooter">What kind of coffee I should choose</span></span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="#" class="post-title imgListFooter"><span class="icon-question quantaQuestion"><span class="quantaTextFooter">Where i can buy coffee</span></span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+                                <p class="quantaQuestion"><a href="#" class="post-title imgListFooter"><span class="icon-question quantaQuestion"><span class="quantaTextFooter">When will my order arrive</span></span></a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="#" class="post-title imgListFooter"><span class="icon-question quantaQuestion"><span class="quantaTextFooter">How to make an online purchase</span></span> </a></p>
+                                <hr />
+                            </li>
+                            <li class="mini-post">
+
+                                <p class="quantaQuestion"><a href="#" class="post-title imgListFooter"><span class="icon-question quantaQuestion"><span class="quantaTextFooter">Who can advise me on my question</span></span></a></p>
+                                <hr />
+                            </li>
+                        </ul>
+                    </div>
+
+
+
+
+
+
+                </div>
+
+
+            </div>
+
+        </div>
+    </section>
+
+    <!--FOOTER-->
+    <footer>
+        <section class="container footer-section">
+
+
+            <p class="quantaTitleCenter quantaTitle">
+                <a href="terms_of_use.html" title="Terms of use" class="quantaQuestion">Terms of use</a> |
+                <a href="privacy.html" title="Privacy" class="quantaQuestion ">Privacy</a>
+            </p>
+            <p class="quantaCalibri quantaTitle quantaTitleCenter">&copy; 2016 Quanta Coffee. All right reserved</p>
+
+
+
+        </section>
+        <section class="ss-style-doublediagonal" data-type="background" data-speed="10"></section>
+    </footer>
+
+    <!-- popup content -->
+    <div id="modal_snapchat" class="popup-gallery md-modal md-effect-1">
+        <div class="md-content form">
+            <img src="_/images/FOOTER/snapcodes.png" class="img-responsive center-block" alt="" />
+            <div class="md-description">
+                <p><strong>QuantaCoffee Snapcode</strong> </p>
+                <p>Scannable code that make adding to QuantaCoffee a new Snapchat friend and opening Snapchat content simple and fun!</p>
+            </div>
+            <button class="button md-close right btn-cross"><i class="icon-cancel"></i></button>
+        </div>
+    </div>
+
+    <div id="login-modal" class="popup-gallery md-modal md-effect-1">
+        <div class="md-content form">
+            <h1>Sign In</h1>
+            <div class="row form-body">
+                <div class="col-xs-12">
+                    <form role="form" id="login-form" action="#">
+                        <div class="form-group">
+                            <label>Username</label>
+                            <input type="text" class="form-control" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <label>Password</label>
+                            <input type="password" class="form-control" name="password1">
+                        </div>
+                        <div class="row">
+                            <div class="dt-form-info col-xs-12 col-sm-8">
+                                <label>
+                                    you don't have account?  <a href="#" class="md-trigger" data-modal="register-modal" onclick="$('#login-modal').removeClass('md-show');return false;">Register</a>
+                                </label>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-4">
+                                <button type="submit" class="btn-submit">Sign In</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <a href="#" class="md-close right"><i class="icon-cancel"></i></a>
+        </div>
+    </div>
+    <div id="register-modal" class="popup-gallery md-modal md-effect-1">
+        <div class="md-content form">
+            <h1>REGISTER</h1>
+            <div class="row form-body">
+                <div class="col-xs-12">
+                    <form role="form" id="register-form" action="#">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="username" name="username" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Full Name" name="fullname" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="tel" class="form-control" placeholder="Phone" name="phone">
+                        </div>
+                        <div class="form-group">
+                            <input type="email" class="form-control" placeholder="Email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Password" name="password1">
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Repeat Password" name="password2">
+                        </div>
+
+
+                        <div class="row">
+                            <div class="dt-form-info col-xs-12 col-sm-8">
+                                <div class="checkbox">
+                                    <label>
+                                        <input type="checkbox">I Accept the <a href="#">Term & Condition</a>
+                                    </label>
+                                </div>
+                            </div>
+                            <div class="form-group col-xs-12 col-sm-4">
+                                <button type="submit" class="btn-submit">SUBMIT</button>
+                            </div>
+                        </div>
+
+                    </form>
+                </div>
+            </div>
+
+            <a href="#" class="md-close right"><i class="icon-cancel"></i></a>
+        </div>
+    </div>
+
+    <div class="md-overlay"></div>
+    <div class="jquery-media-detect"></div>
+    <script type="text/javascript" src="_/js/jrating.jquery.js"></script>
+    <script type="text/javascript" src="_/js/myscript.js"></script>
+    <script type="text/javascript" src="_/js/modal_effects.js"></script>
+</body>
+</html>
+

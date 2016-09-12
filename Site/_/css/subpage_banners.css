@@ -1,0 +1,15 @@
+.blog-classic-banner, .blog-fullwidth-banner {
+    background:url(../images/COMPANY/IMG_6449.JPG) no-repeat;
+}
+.portfolio-4-col-banner, .portfolio-5-col-banner {
+    background:url('../images/FARMS/portadafarms2.jpg') no-repeat;
+}
+.contact-banner {
+    background:url(../images/CONTACT_US/contactenos.jpg) no-repeat;    
+}
+.shop-detail-fullwidth-banner {
+	background:url(http://www.coffeebags.co.za/wp-content/uploads/2013/11/banner-copy.png) no-repeat;
+}
+.checkout-banner {
+    background:url(http://www.intellika.in/blogs/FILES%2F2015%2F05%2Fe-commerce-banner.jpg.axdx) no-repeat;    
+}

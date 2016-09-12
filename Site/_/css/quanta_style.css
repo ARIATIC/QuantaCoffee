@@ -1,0 +1,177 @@
+﻿body {
+}
+@font-face {
+font-family: cheddarJack;
+src: url('../fonts/cheddarjack.ttf');
+}
+.quantaSheddar{
+    font-family:cheddarJack;
+    text-transform:capitalize;
+    font-size:7em;
+    text-align:center;
+}
+.quantaCalibri{
+    font-family:Calibri;
+    text-transform:initial;
+}
+
+.quantaTitle{
+    font-size:1.25em;
+}
+
+.quantaBold{
+    font-weight:bold;
+
+}
+
+.quantaMenu{
+    font-family:Calibri;
+    text-transform:uppercase;
+    font-size:1.25em;
+    color:white;
+    font-weight:bold;
+}
+.quantaMenuBlack{
+    font-family:Calibri;
+    text-transform:uppercase;
+    font-size:1.25em;
+    color:black;
+    font-weight:100;
+}
+
+.quantaCambria{
+    font-family:Cambria;
+    text-transform:initial;
+    font-size:1.1em;
+}
+
+.quantaLink{
+    text-decoration:underline;
+}
+
+
+.quantaScroll{
+    overflow:scroll;
+    max-height:200px;
+}
+
+
+.quantaTextSlide{
+    text-shadow: 0px 0px 5px black;
+
+}
+
+
+ol.quantalist li{
+    font-size:1.25em;
+    font-weight:bold;
+    font-family:Calibri;
+    text-transform:capitalize;
+    color:black;
+}
+
+ol.quantalist li h3{
+    font-size:1.25em;
+    font-weight:bold;
+    font-family:Calibri;
+    color:black;
+    text-transform:capitalize;
+}
+ol.quantalist li p{
+    font-size:16px;
+    font-weight:100;
+    font-family:Cambria;
+    text-transform:capitalize;
+    text-align:justify;
+}
+.boxQuanta{
+    margin-top:100px;
+    margin-right:100px;
+}
+
+.boxQuanta1{
+    margin-top:100px;
+}
+
+.quantaTitleCenter{
+    text-align:center;
+    font-weight:bold;
+}
+
+.quantaVideoCoffee{
+    width:700px;
+    height:480px;
+}
+.quantaBoxVideo{
+    text-align:center;
+}
+.quantaFigureCaption{
+    position:absolute;
+    font-family:Calibri;
+    font-size:1.3em;
+    bottom:10px;
+    width:100%;
+    text-align:center;
+    color:black;
+    text-shadow:0px 0px 1px white;
+}
+
+.boxInstagram{
+    width:100%;
+    max-width:100%;
+    z-index:1;
+}
+
+hr{
+    max-width:95%;
+}
+
+.imgListFooter{
+       margin: 0px 30px 30px 0px;
+        padding:0px 0px 0px 0px;
+}
+
+.quantaQuestion{
+    font-size:1.2em;
+    color:white;
+    margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+}
+
+.quantaQuestion:hover{
+    color:#1abc9c;
+}
+.quantaQuestion::selection{
+    color:gray;
+}
+
+.quantaTextFooter{
+    font-size:20px;
+    font-family:Cambria;
+}
+
+.mini-post{
+    margin: 0px 0px 0px 0px;
+    padding:0px 0px 0px 0px;
+}
+
+.bgOverlaping{
+    background-color:transparent;
+    z-index:0;
+    max-width:100%;
+    position:absolute;
+
+}
+
+.mini-post hr{
+        margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+
+}
+.mini-post p{
+        margin: 0px 0px 0px 0px;
+        padding:0px 0px 0px 0px;
+
+
+}
+
