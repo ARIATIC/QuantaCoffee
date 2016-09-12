@@ -1,0 +1,10 @@
+﻿{
+    "productos": [
+        { "producto1": {"nombre": "Manzano Roasted", "src": "_/images/SHOP/body/coffee/CoffeeBeanRoasted.jpg", "precio": 14, "peso": 12, "cantidad": 0 } },
+        { "producto2": {"nombre": "Manzano Grounder","src": "_/images/SHOP/body/coffee/CoffeeBeanRoasted.jpg","precio": 22,"peso": 12,"cantidad": 0} },
+        { "producto3": {"nombre": "Manzano Bean Green","src": "_/images/SHOP/body/coffee/CoffeeBeanGreen.jpg","precio": 22,"peso": 2,"cantidad": 0} },
+        { "producto4": {"nombre": "Morelia Roasted","src": "_/images/SHOP/body/coffee/CoffeeBeanRoasted.jpg","precio": 12,"peso": 2,"cantidad": 0} },
+        { "producto5": {"nombre": "Morelia Grounder","src": "_/images/SHOP/body/coffee/CoffeeBeanRoasted.jpg","precio": 14,"peso": 12,"cantidad": 0} },
+        { "producto6": {"nombre": "Morelia Bean Green","src": "_/images/SHOP/body/coffee/CoffeeBeanGreen.jpg","precio": 22,"peso": 2,"cantidad": 0} } 
+    ]
+}

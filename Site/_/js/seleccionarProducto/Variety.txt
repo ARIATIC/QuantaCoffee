@@ -1,0 +1,127 @@
+[{
+	"imgprincipal":{"url":"_/images/SHOP/body/details/Manzano.jpg","nombre":"El Manzano Roast"},
+	"imgsmalllist":[{},{},{},{}],
+	"name":"El Manzano Roast",
+	"price":"$14",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"imgprincipal":{"url":"_/images/SHOP/body//details/Manzano.jpg","nombre":"El Manzano Roast 1"},
+	"img-small-list":[{},{},{},{}],
+	"name":"Manzano Ground",
+	"price":"$14",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"imgprincipal":{"url":"_/images/SHOP/body//details/CoffeeBeanGreen1.jpg","nombre":"Manzano Green Bean"},
+	"img-small-list":[{},{},{},{}],
+	"name":"Manzano Green Bean",
+	"price":"$22",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"imgprincipal":{"url":"_/images/SHOP/body/details/CoffeeBeanRoasted.jpg","nombre":"El Manzano Roast"},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"price":"$14",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"imgprincipal":{"url":"_/images/SHOP/body/details/CoffeeBeanRoasted.jpg","nombre":"Morelia Ground"},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Ground",
+	"price":"$14",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"imgprincipal":{"url":"_/images/SHOP/body//details/CoffeeBeanGreen1.jpg","nombre":"Morelia Green Bean"},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Bean Green",
+	"price":"$22",
+	"weight":"12oz",
+	"description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"item-price":"$12",
+	"item-weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"item-properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"item-price":"$12",
+	"item-weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"item-properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"item-price":"$12",
+	"item-weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"item-properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"item-price":"$12",
+	"item-weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"item-properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"price":"$12",
+	"weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+},{
+	"img-principal":{},
+	"img-small-list":[{},{},{},{}],
+	"name":"El Morelia Roast",
+	"price":"$12",
+	"weight":"12oz",
+	"item-description":"Coffee made ​​with sublime , selected coffee farms located in mountainous areas of Quindio. Crop altitude over 1400 meters",
+	"properties":"Weight 12pd Height 1500ms Heartburn Average Medium highBody",
+	"description":"Descriptionyyyyyyyyy",
+	"info":"informationxxxxxxxxxxxxxxxx",
+	"review":"reviewxxxxxxxxxxxxxxx"
+}]
