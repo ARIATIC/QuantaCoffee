@@ -7140,7 +7140,7 @@ a.md-trigger {
 }
 /* recent blog post */
 #recent-blog-post .owl-slide {
-  margin: 0 20px;
+  margin: 0 0px;
   background: #ecf0f1;
   text-align: center;
   overflow: hidden;
@@ -7714,13 +7714,13 @@ a.md-trigger {
 @media (min-width: 1024px) and (max-width: 1200px) {
   #featured-work .owl-slide {
     max-width: 300px;
-    margin: 40px auto;
+    margin: 0px auto;
   }
 }
 @media (min-width: 992px) and (max-width: 1023px) {
   #featured-work .owl-slide {
     max-width: 373px;
-    margin: 40px auto;
+    margin: 0px auto;
     position: relative;
   }
 }
@@ -7728,7 +7728,7 @@ a.md-trigger {
   #featured-work .owl-slide {
     max-width: 320px;
     position: relative;
-    margin: 40px auto;
+    margin: 0px auto;
   }
 }
 @media (max-width: 320px) {

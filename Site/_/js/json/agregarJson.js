@@ -127,4 +127,26 @@ function load() {
     }
 
 }
+function cambiarVideo(num) {
+    var url;
+    switch (num) {       
+        case 1:
+            url = "https://www.youtube.com/watch?v=khhS73s5VLY";
+            break;
+        case 2:
+            url = "https://www.youtube.com/embed/Mb5Dq2BLqts";
+            break;
+        case 3:
+            url = "https://www.youtube.com/embed/iaSnIAUkTKU";
+            break;
+        default:
+           break;
+
+    }
+
+    document.getElementById("videoPrincipal").setAttribute("src", url);
+
+}
+
+
 window.onload = load;
