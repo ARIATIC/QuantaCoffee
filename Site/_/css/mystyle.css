@@ -2198,6 +2198,7 @@ a.search_btn :hover {
 }
 .blog_classic .blog_classic_posts {
   font-weight: 300;
+  margin-top:100px;
 }
 .blog_classic .blog_classic_posts .post_row {
   margin-bottom: 40px;
@@ -9252,6 +9253,11 @@ a.md-trigger {
   }
 }
 
+.video2 {
+     align-content:center;
+     width:600px;
+     height:450px;
+}
 
 .video {
      align-content:center;

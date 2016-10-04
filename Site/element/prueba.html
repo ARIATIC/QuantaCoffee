@@ -1,0 +1,36 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <title></title>
+    <meta charset="utf-8" />
+
+    <link rel="import" href="footer.html">
+    <!-- avoid including script -->
+</head>
+<body>
+    <!-- avoid including script -->
+
+    <div id="container"></div>
+
+    <!-- avoid including script -->
+    ...
+
+    <script>
+    // Other scripts n' stuff.
+
+    // Bring in the import content.
+    /*var link = document.querySelector('link[rel="import"]');
+    var post = link.import.querySelector('#blog-post');
+
+    var container = document.querySelector('#container');
+    container.appendChild(post.cloneNode(true));
+    alert(post);
+    container.appendChild(post);*/
+
+        var link = document.querySelector('link[rel="import"]');
+        alert(link.import.querySelector('#details').innerHTML);
+        document.getElementById('container').innerHTML = link.import.querySelector('#footer').innerHTML;
+    </script>
+</body>
+</html>
